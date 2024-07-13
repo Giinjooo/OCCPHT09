@@ -1,0 +1,62 @@
+/* Naming conventions 
+Camel Casing: fontFamilySize
+Khebab Casing: font-family-size
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.font-family-size {
+    font-family: "Nunito Sans", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+div:hover {
+    color: rgb(184, 4, 4);
+    font-size: 25px;
+    transition: color 1s;     
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.line-height {
+    line-height: 4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid;
+    width: 200px;
+}
+.letter-spacing {
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+    
+.text-shadow {
+    /*
+        1st value: Horizontal
+        2nd value: Vertical
+        3rd value: Blur effect
+    */
+    text-shadow: 5px 5px 2px black;
+    text-transform: lowercase;
+    text-indent: 10px;
+}
+

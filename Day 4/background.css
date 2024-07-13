@@ -1,0 +1,32 @@
+body {
+    background-color: tomato;
+    color: rgb(58, 3, 3)
+}
+
+.color-example {
+    color: rgba(0, 0, 255, 50%)
+}
+
+.value {
+    color: blue;
+}
+.background-example {
+    background-color: green;
+}
+
+.background-image {
+    background-image: url("jjk.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-sizing-example {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-size: cover;    
+}

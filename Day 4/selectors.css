@@ -1,0 +1,70 @@
+/* Element Selector */
+span {
+    color: tomato;
+}
+
+/* Class Selector */
+.class-name {
+    color: red;
+}
+
+/* ID Selector */
+#id-name {
+    color: orange;
+}
+
+/* Universal Selector - Best practice place on top */
+* {
+    color: gray;
+    font-size: 25px;
+}
+
+/* Attribute Selector */
+a[href] {
+    color: purple;
+}
+
+a[href="www.sample.com"] {
+    color: green;
+}
+
+/* Grouping Selector */
+
+h1, .parag, h2 {
+    color: brown;
+}
+
+/* Descendant Selector */
+.ancestor h3 {
+    color: yellow;
+}
+
+.ancestor p {
+    color: burlywood;
+}
+
+/* Pseudo Selector */
+button:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+a[href="https://www.example.com"] {
+    color: fuchsia;
+}
+
+/* Pseudo Elements */
+#pseudo-element::before {
+    content: "This is a paragraph before h3 ";
+    color: black;
+}
+
+#pseudo-element::after {
+    content: " This is para after h3";
+    color: blueviolet;
+}
+
+#pseudo-element::first-letter {
+    color: tomato;  
+}
+
